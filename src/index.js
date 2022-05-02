@@ -4,7 +4,8 @@ import {
   removeItem,
   updateLocal,
   deleteData,
-  createBook
+  createBook,
+  taskElement
 } from './modules/addRemove.js';
 import { Mark, deletAll } from './modules/interactive.js';
 
