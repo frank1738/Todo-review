@@ -18,6 +18,7 @@ export const createBook=()=>{
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                     <i class="fa-solid fa-trash-can hide"></i>
                     `;
+  return taskElement
 }
 export const newIndex = () => {
   let count = 1;
