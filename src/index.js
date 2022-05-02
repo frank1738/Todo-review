@@ -19,7 +19,7 @@ const loadTasks = () => {
   } else {
     const localItems = JSON.parse(localStorage.getItem('tasks'));
     for (let i = 0; i < localItems.length; i += 1) {
-      const taskElement=createBook();
+      const taskElement = createBook();
       const taskDescription = taskElement.querySelector('.description');
       taskDescription.value = localItems[i].description;
       todoContainer.appendChild(taskElement);
