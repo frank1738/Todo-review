@@ -9,7 +9,7 @@ let prevDit = '';
 let prevDot = '';
 
 export const createBook=()=>{
-   const taskElement = document.createElement('div');
+  export const taskElement = document.createElement('div');
       taskElement.classList.add('task');
       taskElement.setAttribute('id', localItems[i].index);
       taskElement.innerHTML = `
