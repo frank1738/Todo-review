@@ -8,7 +8,7 @@ let prevInput = '';
 let prevDit = '';
 let prevDot = '';
 
-const createBook=()=>{
+export const createBook=()=>{
    const taskElement = document.createElement('div');
       taskElement.classList.add('task');
       taskElement.setAttribute('id', localItems[i].index);
