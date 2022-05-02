@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins, sans-serif;
+  background-color: lightgrey;
+}
+
+.container {
+  width: 30%;
+  margin-top: 3rem;
+  box-shadow: 0 0 10px gray;
+  background-color: white;
+}
+
+.background {
+  background-color: whitesmoke;
+}
+
+.fa-solid {
+  cursor: pointer;
+}
+
+.fa-solid:hover {
+  color: black;
+}
+
+.input {
+  width: 80%;
+  font-family: poppins, sans-serif;
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  font-style: italic;
+}
+
+.input-items {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgrey;
+}
+
+.task {
+  border-top: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.fa-arrow-down {
+  justify-self: flex-end;
+  color: gray;
+}
+
+.fa-ellipsis-vertical {
+  color: gray;
+  margin-left: 2rem;
+}
+
+.description {
+  margin-left: 1rem;
+  width: 90%;
+  font-family: poppins, sans-serif;
+  border: none;
+  outline: none;
+}
+
+.clear {
+  padding: 0.6rem;
+  text-align: center;
+  border-top: 1px solid lightgrey;
+  background-color: lightgray;
+  color: grey;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-section {
+  display: flex;
+  padding: 0.6rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-arrows-rotate {
+  color: gray;
+}
+
+.check-box {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.mark {
+  text-decoration: line-through;
+}
+
+.del {
+  width: 44%;
+  padding: 0;
+  border: 1px solid transparent;
+}
+
+.del:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
