@@ -64,7 +64,7 @@ export const addTask = () => {
     index: localList.length + 1,
   };
 
-  createBook()
+  const taskElement=createBook()
   const taskDescription = taskElement.querySelector('.description');
   taskDescription.value = task.description;
   todoContainer.appendChild(taskElement);
