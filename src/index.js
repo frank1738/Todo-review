@@ -51,17 +51,7 @@ addData.addEventListener('keypress', (e) => {
   }
 });
 
-const createBook=()=>{
-   const taskElement = document.createElement('div');
-      taskElement.classList.add('task');
-      taskElement.setAttribute('id', localItems[i].index);
-      taskElement.innerHTML = `
-                    <input type="checkbox" name="" id="${localItems[i].index}" class="check-box" />
-                    <input type="text" class="description">
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                    <i class="fa-solid fa-trash-can hide"></i>
-                    `;
-}
+
 deletAllItems.addEventListener('click', deletAll);
 
 loadTasks();
