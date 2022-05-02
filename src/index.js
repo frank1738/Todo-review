@@ -5,7 +5,6 @@ import {
   updateLocal,
   deleteData,
   createBook,
-  taskElement
 } from './modules/addRemove.js';
 import { Mark, deletAll } from './modules/interactive.js';
 
