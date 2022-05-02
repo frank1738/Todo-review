@@ -4,6 +4,7 @@ import {
   removeItem,
   updateLocal,
   deleteData,
+  createBook
 } from './modules/addRemove.js';
 import { Mark, deletAll } from './modules/interactive.js';
 
